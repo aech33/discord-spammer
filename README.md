@@ -2,11 +2,9 @@
 It uses pyautogui and keyboard to find the message bar and then type your chosen message for the number of times you ask.
 
 # SETUP
-to install the modules you can do
--pip install pyautogui
-and
--pip install keyboard
-in the cmd
+to install the modules type the following into the cmd:
+- ``pip install pyautogui``
+- ``pip install keyboard``
 
 A screenshot of the message box is used to find it, so if your discord is in a language other than english or you have it in light mode, you'll need to do the following:
 - Use Win + Shift + S to take a screenshot of *only* the bit that says 'message' (**not which channel it is**)
